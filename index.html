@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>JavaScript Fetch API - Github API</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>JavaScript Fetch API - Github API</h1>
+            </div>
+
+            <div class="input">
+                <h2 class="purple">Search User</h2>
+                <input
+                    type="text"
+                    placeholder="Enter github username..."
+                    id="search"
+                />
+            </div>
+
+            <div class="user-info">
+                <div class="user-image">
+                    <div class="image">
+                        <a href="" target="_blank" id="userGithub">
+                            <img
+                                src="images//default.svg"
+                                alt="user-avatar"
+                                id="userImage"
+                            />
+                        </a>
+                    </div>
+                    <p class="purple" id="userUsername">Username</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <p class="card-title">Type</p>
+                        <p class="purple" id="userType">?</p>
+                    </div>
+                    <div class="card">
+                        <p class="card-title">Followers</p>
+                        <p class="purple" id="userFollowers">?</p>
+                    </div>
+                    <div class="card">
+                        <p class="card-title">Following</p>
+                        <p class="purple" id="userFollowing">?</p>
+                    </div>
+                    <div class="card">
+                        <p class="card-title">Public Repos</p>
+                        <p class="purple" id="userRepos">?</p>
+                    </div>
+                    <div class="card">
+                        <p class="card-title">Public Gists</p>
+                        <p class="purple" id="userGists">?</p>
+                    </div>
+                    <div class="card">
+                        <p class="card-title">Company</p>
+                        <p class="purple" id="userCompany">?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>
+                    Made with ❤️ by
+                    <a href="https://github.com/gorkemgunay" target="_blank"
+                        >Görkem Günay</a
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
